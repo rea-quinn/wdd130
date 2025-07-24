@@ -46,7 +46,7 @@ nav, p, section, article {
     left: 10%;
     right: 10%;
     padding: 20px;
-    background: rgb(red, green, blue);
+    background: #795C5F #C057C7 #937E2B;
     color: #fff;
     overflow: auto;
     display: flow-root;
@@ -75,4 +75,9 @@ h1 {
 .hero article img {
     float: right;
     width: 200px;
+}
+.socialmedia img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
 }
