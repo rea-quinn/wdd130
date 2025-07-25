@@ -1,14 +1,14 @@
 :root {
-    --primary-color: #055a05;
-    --secondary-color: #f4a261;
-    --accent1-color: #264653;
-    --accent2-color: #e9c46a;
+    --primary-color: #795c57;
+    --secondary-color: #c057c7;
+    --accent1-color: #937e2b;
+    --accent2-color: #d16363;
     --heading-font: "Playfair Display", sans-serif;
     --boday-font: "oswald";
 }
 header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color)
+    background-color: #f1e7e502;
+    color: #795c57;
 }
 * {
     margin: 0;
@@ -17,16 +17,18 @@ header {
 }
 body {
     font-family: var(--boday-font);
-    color: var(--accent1-color);
+    color: #a38980;
+    max-width: 900px;
 
 }
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: #1f1515;
+    text-align: left;
 }
 nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
+    margin: 10px;
+    padding: 5px;
 }
 .socialmedia a {
     text-decoration: none;
@@ -53,8 +55,8 @@ nav, p, section, article {
     left: 10%;
     right: 10%;
     padding: 20px;
-    background: #d1b9d3;
-    color: #fff;
+    background: #da8fd64b;
+    color: #e6dddd;
     overflow: auto;
     display: flow-root;
 
@@ -63,7 +65,7 @@ nav, p, section, article {
     float: right;
     width: 200px;
     margin: 0 0 10px 10px;
-    border: 3px solid #fff;
+    border: 3px solid #2c2323;
 }
 .hero img {
     float: right;
@@ -76,8 +78,8 @@ h1 {
     width: 100%;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+    background-color: var(#796762);
+    color: #b39d9d;
 }
 .hero article img {
     float: right;
@@ -110,12 +112,15 @@ h1 {
 }
 .gallery img {
     width: 100%;
-    border: 2px solid #ccc;
+    border: 2px solid #f8f2f2;
     border-radius: 5px;
 }
 footer {
-    background: #eee;
+    background: #ffffff;
     text-align: left;
     padding: 20px;
     margin-top: 20px;
+}
+.hero h1 {
+    text-shadow: #e6dddd;
 }
