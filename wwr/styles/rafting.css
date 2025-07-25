@@ -18,6 +18,7 @@ header {
 body {
     font-family: var(--boday-font);
     color: var(--accent1-color);
+    
 }
 h1, h2 {
     font-family: var(--heading-font);
@@ -31,10 +32,12 @@ nav, p, section, article {
     text-decoration: none;
 }
 .hero {
-    position: relative;
-    width: 100%;
-    max-width: 900%;
-    margin: 0 auto;
+    background: url(../images/raftingbg.jpg);
+    background-size: center;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+
 }
 .hero-bg {
     display: block;
@@ -46,7 +49,7 @@ nav, p, section, article {
     left: 10%;
     right: 10%;
     padding: 20px;
-    background: #c057c7;
+    background: #d1b9d3;
     color: #fff;
     overflow: auto;
     display: flow-root;
@@ -80,4 +83,34 @@ h1 {
     width: 24px;
     height: 24px;
     margin-right: 10px;
+}
+.logo {
+    height: 80px;
+}
+.hero-content img {
+    width: 150px;
+    margin-left: 20px;
+    vertical-align: media;
+}
+.history,
+.adventure {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.galllery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.gallery img {
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+footer {
+    background: #eee;
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
 }
