@@ -18,7 +18,7 @@ header {
 body {
     font-family: var(--boday-font);
     color: var(--accent1-color);
-    
+
 }
 h1, h2 {
     font-family: var(--heading-font);
@@ -33,7 +33,7 @@ nav, p, section, article {
 }
 .hero {
     background: url(../images/raftingbg.jpg);
-    background-size: center;
+    background-position:  center;
     color: white;
     padding: 60px 20px;
     text-align: center;
@@ -90,7 +90,7 @@ h1 {
 .hero-content img {
     width: 150px;
     margin-left: 20px;
-    vertical-align: media;
+    vertical-align: middle;
 }
 .history,
 .adventure {
