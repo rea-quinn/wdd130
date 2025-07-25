@@ -33,15 +33,19 @@ nav, p, section, article {
 }
 .hero {
     background: url(../images/raftingbg.jpg);
-    background-position:  center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
-    padding: 60px 20px;
-    text-align: center;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
 
 }
 .hero-bg {
     display: block;
-    width: 100%;
+    width: 200%;
 }
 .hero-content {
     position: absolute;
@@ -97,6 +101,7 @@ h1 {
     max-width: 800px;
     margin: 40px auto;
     padding: 0 20px;
+    
 }
 .galllery {
     display: flex;
