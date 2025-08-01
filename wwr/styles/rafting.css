@@ -17,7 +17,7 @@ header {
 }
 body {
     font-family: var(--boday-font);
-    color: #a38980;
+    color: #201713;
     max-width: 900px;
 
 }
@@ -154,11 +154,11 @@ nav a {
     border-radius: 4px;
 }
 .history-content {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    display: flex;
+    align-items: center;
     gap: 20px;
     align-items: center;
-    margin-top: 1rem;
+    justify-content: space-between;
 }
 .adventure-gallery {
     display: flex;
@@ -172,7 +172,36 @@ nav a {
     height: auto;
     border: 2px solid #b39d9d
 }
-.adveture-gallery figcaption {
+.adventure-gallery figcaption {
     font-size: 0.9rem;
     margin-top: 0.5rem;
+}
+body {
+    margin: 0;
+    font-family: var(--heading-font);
+}
+.gallery {
+    display: flex;
+    justify-content: space-around
+}
+.gallery figure {
+    margin: o;
+    text-align: center;
+}
+footer {
+    background-color: #ddcec9;
+    padding: 15px;
+    text-align: center;
+}
+.socialmedia img {
+    margin: 5px;
+}
+.hero, .history, .adventure, footer {
+    padding: 20px;
+    text-align: center;
+}
+.history {
+    background-color: #a38980;
+    padding: 30px 20px;
+    
 }
