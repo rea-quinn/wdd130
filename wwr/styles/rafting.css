@@ -121,3 +121,58 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    background-color: #c057c7;
+    padding: 1rem;
+    gap: 1rem;
+}
+header img {
+    width: 60px;
+    height: 60px;
+}
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #a38980;
+    border-radius: 4px;
+}
+.history-content {
+    display: grid;
+    grid-template-columns: 1f auto 1fr;
+    gap: 20px;
+    align-items: center;
+    margin-top: 1rem;
+}
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 1rem;
+}
+.adventure-gallery img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #b39d9d
+}
+.adveture-gallery figcaption {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
