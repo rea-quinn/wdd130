@@ -155,7 +155,7 @@ nav a {
 }
 .history-content {
     display: grid;
-    grid-template-columns: 1f auto 1f;
+    grid-template-columns: 1fr auto 1fr;
     gap: 20px;
     align-items: center;
     margin-top: 1rem;
